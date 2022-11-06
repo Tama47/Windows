@@ -51,7 +51,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
 ```
 
 ### Turn off Recent Items and Frequent Places
+Under “User Configuration > Administrative Templates”, click “Start Menu and Taskbar”.
 ```bash
 gpedit.msc
 ```
-Under “User Configuration > Administrative Templates”, click “Start Menu and Taskbar”.
