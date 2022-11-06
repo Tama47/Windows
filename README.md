@@ -12,7 +12,7 @@ cleanmgr /sageset:1
 
 ### mpv data location
 ```bash
-%APPDATA%/mpv/
+%APPDATA%/mpv
 ```
 
 ### Plex data location
@@ -49,6 +49,7 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3
 ```bash
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
 ```
+
 ### Turn off Recent Items and Frequent Places
 ```bash
 gpedit.msc
