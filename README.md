@@ -1,6 +1,16 @@
 # Windows
 
-### Run cleanmgr.exe
+### Change taskbar
+```bash
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3
+```
+
+### Change theme
+```bash
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
+```
+
+### cleanmgr.exe
 ```bash
 cleanmgr.exe /SAGESET:1
 ```
@@ -10,7 +20,17 @@ cleanmgr.exe /SAGESET:1
 cleanmgr /sageset:1
 ```
 
-### Plex Location:
+### Hide Removable Drives From Navigation Pane
+```bash
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders
+```
+
+### mpv
+```bash
+%APPDATA%/mpv/
+```
+
+### Plex
 ```bash
 %LOCALAPPDATA%\Plex Media Server
 ```
@@ -25,23 +45,8 @@ py -m http.server 80
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace
 ```
 
-### Hide Removable Drives From Navigation Pane
-```bash
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders
-```
-
 ### Turn Off Recent Items and Frequent Places
 ```bash
 gpedit.msc
 Under “User Configuration > Administrative Templates”, click “Start Menu and Taskbar”.
-```
-
-### Change taskbar
-```bash
-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3
-```
-
-### Change theme
-```bash
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
 ```
