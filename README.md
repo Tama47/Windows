@@ -1,11 +1,11 @@
 # Windows
 
-### cleanmgr.exe
+### cleanmgr run
 ```bash
-cleanmgr.exe /SAGESET:1
+cleanmgr /sagerun:1
 ```
 
-### cleanmgr.exe preset
+### cleanmgr preset
 ```bash
 cleanmgr /sageset:1
 ```
@@ -23,12 +23,6 @@ cleanmgr /sageset:1
 ### Python SimpleHTTPServer
 ```bash
 py -m http.server 80
-```
-
-### Recent Items and Frequent Places
-```bash
-gpedit.msc
-Under “User Configuration > Administrative Templates”, click “Start Menu and Taskbar”.
 ```
 
 ### Remove OneDrive in Navigation Pane of File Explorer
@@ -54,4 +48,9 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3
 ### Themes Setting
 ```bash
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
+```
+### Turn off Recent Items and Frequent Places
+Under “User Configuration > Administrative Templates”, click “Start Menu and Taskbar”.
+```bash
+gpedit.msc
 ```
