@@ -40,6 +40,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Na
 HKEY_CURRENT_USER\Control Panel\UnsupportedHardwareNotificationCache
 ```
 
+### Remove Activate Windows 11 watermark
+```bash
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\svsvc
+HKEY_CURRENT_USER\Control Panel\Desktop
+```
+
 ### Taskbar Setting
 ```bash
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3
