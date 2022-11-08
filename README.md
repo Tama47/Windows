@@ -37,8 +37,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Na
 
 ### Remove Activate Windows 11 watermark
 ```bash
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\svsvc
 HKEY_CURRENT_USER\Control Panel\Desktop
+```
+```bash
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\svsvc
 ```
 
 ### Remove Windows 11 watermark
