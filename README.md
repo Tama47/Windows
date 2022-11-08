@@ -35,15 +35,15 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Nam
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders
 ```
 
-### Remove Windows 11 watermark
-```bash
-HKEY_CURRENT_USER\Control Panel\UnsupportedHardwareNotificationCache
-```
-
 ### Remove Activate Windows 11 watermark
 ```bash
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\svsvc
 HKEY_CURRENT_USER\Control Panel\Desktop
+```
+
+### Remove Windows 11 watermark
+```bash
+HKEY_CURRENT_USER\Control Panel\UnsupportedHardwareNotificationCache
 ```
 
 ### Taskbar Setting
